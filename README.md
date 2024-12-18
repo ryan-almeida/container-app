@@ -21,10 +21,10 @@ The original repository for this project belongs to a collection of sample docke
 - When running the final docker-compose-ps command, you might receive some sort of "Health Check Failing with Persmission Denied" error message for Redis and Postgres container. If this happens you need to grant the permission manually by using the chmod command. You can read more about that [here](https://github.com/meeb/tubesync/issues/41)
 ## Learning Outcomes:
 This is a great introductory project to expose you to containers and running containerized applications. It allows you to build a simple web application as a combination of Docker containers rather than a monolithic application. Doing so has several benefits, many of which can be applied to larger-scale, production grade applications. Some benefits include: 
-- Improved Scalability
-- Fault Isolation and Tolerance
-- Technology Diversity 
-- Efficient Resource Utilization
-- Portability
-- Security 
+- Improved Scalability - Each service can be scaled independently based on demand
+- Fault Isolation and Tolerance - If one container fails, it doesn’t necessarily bring down the entire application
+- Technology Diversity - Different services can use different programming languages, frameworks, or runtime environments based on their specific requirements
+- Efficient Resource Utilization - 
+- Portability - Containers encapsulate the application and its dependencies, making them portable across different environments
+- Security - Containers run in isolated environments, reducing the attack surface of the application
 - ...And much more!
